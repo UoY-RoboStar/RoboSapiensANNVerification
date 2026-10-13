@@ -1,0 +1,12 @@
+#Test NTNU model verification (no weights)
+
+model:
+  onnx_path: ../../../ConfigFiles/NTNU/NTNUSingleCell.onnx
+
+
+specification:
+  # VNNLIB file specification.
+  vnnlib_path: ../../../ConfigFiles/NTNU/ntnu_prop_reduced.vnnlib
+  
+solver:
+  batch_size: 2048

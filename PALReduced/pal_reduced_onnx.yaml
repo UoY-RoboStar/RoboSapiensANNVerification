@@ -1,0 +1,10 @@
+#Test NTNU model verification (no weights)
+
+model:
+  onnx_path: PALReduced/yolov11_palretrained_64x64.onnx
+  
+specification:
+  vnnlib_path: PALReduced/palvnnspec64x64_r.vnnlib
+  
+solver:
+  batch_size: 2048
