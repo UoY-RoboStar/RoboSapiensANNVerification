@@ -6,7 +6,7 @@ model:
 
 specification:
   # VNNLIB file specification.
-  vnnlib_path: ../../../Config/NTNU/Properties/TestProperties/ntnu_prop_9.vnnlib
+  vnnlib_path: ../../../Config/NTNU/Properties/TestProperties/ntnu_prop_10.vnnlib
   
 solver:
   batch_size: 2048
