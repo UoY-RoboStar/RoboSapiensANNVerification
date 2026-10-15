@@ -1,0 +1,10 @@
+#Test NTNU model verification (no weights)
+
+model:
+  onnx_path: ../../../Config/PAL/Networks/yolo11s_PALretrained.onnx
+  
+specification:
+  vnnlib_path: ../../../Config/PAL/Properties/palvnnspec640x640.vnnlib
+  
+solver:
+  batch_size: 32
