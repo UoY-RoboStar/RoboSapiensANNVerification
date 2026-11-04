@@ -1,0 +1,10 @@
+#Test NTNU model verification (no weights)
+
+model:
+  onnx_path: ../../../Config/PALReduced/Networks/yolo11s_palretrained_32x32.onnx
+  
+specification:
+  vnnlib_path: ../../../Config/PALReduced/Properties/palreduced32x32.vnnlib
+  
+solver:
+  batch_size: 2048
